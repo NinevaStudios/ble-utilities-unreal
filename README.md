@@ -16,12 +16,12 @@ Here are some blueprint screenshots:
 
 1. Check bluetooth status
 
-<img src="https://github.com/NinevaStudios/BleUtilitiesPluginUnreal/blob/master/Resource/ble1.PNG" width="400">
+<img src="https://github.com/NinevaStudios/BleUtilitiesPluginUnreal/blob/master/Resource/ble1.PNG">
 
 2. Scan for BLE devices
 
-<img src="https://github.com/NinevaStudios/BleUtilitiesPluginUnreal/blob/master/Resource/ble2.PNG" width="400">
+<img src="https://github.com/NinevaStudios/BleUtilitiesPluginUnreal/blob/master/Resource/ble2.PNG">
 
 3. Subscribe for notifications
 
-<img src="https://github.com/NinevaStudios/BleUtilitiesPluginUnreal/blob/master/Resource/ble3.PNG" width="400">
+<img src="https://github.com/NinevaStudios/BleUtilitiesPluginUnreal/blob/master/Resource/ble3.PNG">
