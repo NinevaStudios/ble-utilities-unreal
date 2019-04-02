@@ -11,3 +11,17 @@ This is what the plugin is able to do:
 - Connect to one of the found BLE devices from within the Unreal Engine app
 - Subscribe to the "Cycling  Power" -> "Cycling Power Measurement" notifications
 - Return the received notification data as byte array to Unreal Engine
+
+Here are some blueprint screenshots:
+
+1. Check bluetooth status
+
+<img src="https://github.com/NinevaStudios/BleUtilitiesPluginUnreal/blob/master/Resource/ble1.PNG" width="400">
+
+2. Scan for BLE devices
+
+<img src="https://github.com/NinevaStudios/BleUtilitiesPluginUnreal/blob/master/Resource/ble2.PNG" width="400">
+
+3. Subscribe for notifications
+
+<img src="https://github.com/NinevaStudios/BleUtilitiesPluginUnreal/blob/master/Resource/ble3.PNG" width="400">
