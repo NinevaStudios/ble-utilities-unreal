@@ -1,3 +1,7 @@
+## If this repo helped you, please consider buying us a cup of coffee:
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8JXUYRFCZMR7G)
+
 # Unreal Engine 4 BLE (Bluetooth Low Enegy) Plugin
 
 This is Unreal Engine plugin that allows to scan for BLE devices with Cycling Power service running, connect to one of them and subscribe for its notifications.
