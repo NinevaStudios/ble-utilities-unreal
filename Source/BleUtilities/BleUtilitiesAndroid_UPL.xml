@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Copyright (c) 2019 Nineva Studios
+-->
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <init>
+		<log text="AndroidBLE initialization"/>
+	</init>
+
+	<prebuildCopies>
+		<copyDir src="$S(PluginDir)/Private/Java" dst="$S(BuildDir)/src/com/ninevastudios/androidbleunrealapi" />
+	</prebuildCopies>
+
+	<!-- optional additions to proguard -->
+	<proguardAdditions>
+		<insert>
+			-keep public class com.ninevastudios.androidbleunrealapi.** {
+			public protected *;
+			}
+		</insert>
+	</proguardAdditions>
+
+	<!-- optional updates applied to AndroidManifest.xml -->
+	<androidManifestUpdates>
+		<!-- Add permissions -->
+		<addPermission android:name="android.permission.BLUETOOTH" />
+		<addPermission android:name="android.permission.BLUETOOTH_ADMIN" />
+		<addPermission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+		<addFeature android:name="android.hardware.bluetooth_le"
+		android:required="false" />
+	</androidManifestUpdates>
+
+	<buildGradleAdditions>
+
+	</buildGradleAdditions>
+
+</root>

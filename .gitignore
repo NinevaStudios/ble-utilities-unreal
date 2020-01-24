@@ -1,5 +1,6 @@
 # Visual Studio user specific files
 .vs/
+.vscode/
 
 # CLion user specific files
 cmake-build-debug/
@@ -20,9 +21,6 @@ CMakeLists.txt
 *.so
 *.dylib
 *.dll
-
-# Fortran module files
-*.mod
 
 # Compiled Static libraries
 *.lai
@@ -45,6 +43,7 @@ CMakeLists.txt
 *.sdf
 *.VC.db
 *.VC.opendb
+*.code-workspace
 
 # Precompiled Assets
 SourceArt/**/*.png
@@ -75,3 +74,6 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Other
+.DS_Store
