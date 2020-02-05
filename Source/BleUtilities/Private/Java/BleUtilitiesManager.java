@@ -1,3 +1,5 @@
+// Copyright (c) 2020 Nineva Studios
+
 package com.ninevastudios.androidbleunrealapi;
 
 import android.app.Activity;

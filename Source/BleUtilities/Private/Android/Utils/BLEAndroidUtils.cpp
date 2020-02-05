@@ -1,3 +1,5 @@
+// Copyright (c) 2019 Nineva Studios
+
 #include "BLEAndroidUtils.h"
 #include "Android/AndroidJNI.h"
 
