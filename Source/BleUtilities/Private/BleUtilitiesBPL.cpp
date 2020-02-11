@@ -79,7 +79,7 @@ FString UBleUtilitiesUtilsBPL::HexToUUID(FString hexString)
 		return FString();
 	}
 
-	return guid.ToString();
+	return guid.ToString(EGuidFormats::DigitsWithHyphens);
 }
 
 TArray<FString> UBleUtilitiesUtilsBPL::HexToUUIDs(TArray<FString> hexStrings)
