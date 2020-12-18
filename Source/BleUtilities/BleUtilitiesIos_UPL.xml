@@ -5,7 +5,7 @@
 <root xmlns:android="http://schemas.android.com/apk/res/ios">
 
 	<init>
-		<log text="IosBLE initialization"/>
+		<log text="[BleUtilities] IosBLE initialization"/>
 	</init>
 
 	<iosPListUpdates>

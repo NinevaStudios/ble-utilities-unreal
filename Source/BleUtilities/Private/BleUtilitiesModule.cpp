@@ -2,6 +2,7 @@
 
 #include "IBleUtilitiesModule.h"
 #include "BleLog.h"
+#include "Utils/BleUtilitiesPluginUtils.h"
 
 #define LOCTEXT_NAMESPACE "BleUtilities"
 
@@ -16,6 +17,11 @@ IMPLEMENT_MODULE(FBleUtilitiesModule, BleUtilities)
 void FBleUtilitiesModule::StartupModule()
 {
 	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
+
+	FString PluginName = "BleUtilities";
+
+	FString PluginVersionName = UBleUtilitiesPluginUtils::GetPluginVersionName(PluginName);
+	UE_LOG(LogBle, Verbose, TEXT("[%s] - Version: %s"), *PluginName, *PluginVersionName);
 }
 
 void FBleUtilitiesModule::ShutdownModule()
