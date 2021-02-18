@@ -1,3 +1,6 @@
+You can buy a refactored and much more stable version of this plugin with better architecture on [UE Marketplace](https://www.unrealengine.com/marketplace/en-US/product/9ad1594e91da4da1aa72fb617697c9f7). This repo is not maintained any more.
+
+
 ### If this repo helped you, please consider buying us a cup of coffee:
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8JXUYRFCZMR7G)
